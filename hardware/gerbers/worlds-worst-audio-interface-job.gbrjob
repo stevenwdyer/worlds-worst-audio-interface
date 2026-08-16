@@ -1,0 +1,177 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "9.0.7"
+    },
+    "CreationDate": "2026-08-16T14:43:19-02:30"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "worlds-worst-audio-interface",
+      "GUID": "776f726c-6473-42d7-976f-7273742d6175",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 88.6392,
+      "Y": 54.825
+    },
+    "LayerNumber": 4,
+    "BoardThickness": 1.5842,
+    "Finish": "None",
+    "ImpedanceControlled": true
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.13,
+      "TrackToRegion": 0.3,
+      "RegionToRegion": 0.3
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.25,
+      "TrackToRegion": 0.3,
+      "RegionToRegion": 0.3
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "worlds-worst-audio-interface-TOP_Cu.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "worlds-worst-audio-interface-GND_Cu.gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "worlds-worst-audio-interface-PWR_Cu.gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "worlds-worst-audio-interface-BOTTOM_Cu.gbr",
+      "FileFunction": "Copper,L4,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "worlds-worst-audio-interface-F_Paste.gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "worlds-worst-audio-interface-B_Paste.gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "worlds-worst-audio-interface-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "worlds-worst-audio-interface-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "worlds-worst-audio-interface-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "worlds-worst-audio-interface-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "worlds-worst-audio-interface-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "TOP.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.0994,
+      "Material": "3313",
+      "DielectricConstant": "4.16",
+      "Name": "TOP.Cu/GND.Cu",
+      "Notes": "Type: dielectric layer 1 (from TOP.Cu to GND.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "GND.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Thickness": 1.265,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "GND.Cu/PWR.Cu",
+      "Notes": "Type: dielectric layer 2 (from GND.Cu to PWR.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0152,
+      "Name": "PWR.Cu"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.0994,
+      "Material": "3313",
+      "DielectricConstant": "4.16",
+      "Name": "PWR.Cu/BOTTOM.Cu",
+      "Notes": "Type: dielectric layer 3 (from PWR.Cu to BOTTOM.Cu)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "BOTTOM.Cu"
+    },
+    {
+      "Type": "SolderMask",
+      "Thickness": 0.01,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}
